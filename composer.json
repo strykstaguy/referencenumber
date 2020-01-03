@@ -1,0 +1,41 @@
+{
+    "name": "stryksta/referencenumber",
+    "description": "Generate a Reference Number when saving Eloquent models",
+    "keywords": [
+        "stryksta",
+        "laravel-referencenumber",
+        "reference",
+        "number"
+    ],
+    "homepage": "https://github.com/strykstaguy/referencenumber",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cody Benner",
+            "email": "strykstaguy@gmail.com",
+            "homepage": "http://stryksta.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "^7.2",
+        "illuminate/database": "^6.0",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stryksta\\ReferenceNumber\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Stryksta\\ReferenceNumber\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
