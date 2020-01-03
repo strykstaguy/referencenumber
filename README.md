@@ -1,8 +1,6 @@
-<h1 align="center">Reference Number Trait</h1>
+#Laravel Reference Number Trait
 
-<p align="center">Generate a reference number for Invoices, Payment Transactions, Form Submissions, etc </p>
-
-This package provides a trait that will generate a Reference Number when saving an Eloquent model. 
+Generate a reference number for Invoices, Payment Transactions, Form Submissions, etc </p>
 
 ## Installation
 

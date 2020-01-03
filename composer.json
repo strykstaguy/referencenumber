@@ -5,7 +5,8 @@
         "stryksta",
         "laravel-referencenumber",
         "reference",
-        "number"
+        "number",
+        "laravel"
     ],
     "homepage": "https://github.com/strykstaguy/referencenumber",
     "license": "MIT",
